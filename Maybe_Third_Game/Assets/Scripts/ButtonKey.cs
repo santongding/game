@@ -22,11 +22,12 @@ public class ButtonKey : MonoBehaviour {
 	}
     public void PointDown()
     {
-        OnPressed = true;
+        Debug.Log("POINTDOWN");
         if (control.global)
         {
             control.global.kbc.GetKeyDown[KeyCode.A + S -'A']= true;
         }
+        OnPressed = true;
     }
     public void PointUp()
     {
