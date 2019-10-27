@@ -20,7 +20,7 @@ public class ButtonKey : MonoBehaviour {
             control.global.kbc.GetKey[KeyCode.A + S - 'A'] = true;
         }
 	}
-    public void OnPointDown()
+    public void PointDown()
     {
     //   Debug.Log("POINTDOWN");
         if (control.global&&OnPressed==false)
